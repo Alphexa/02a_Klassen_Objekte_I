@@ -11,8 +11,12 @@ public class App {
         // cat --> Referenzvariable
         // Cat --> Referenztyp (Klasse)
 
+
+
+
         Cat cat = new Cat();
         output ("Blick von aussen: " + cat);
+        cat.getInstanceVariable();
 
         // IMPLIZITE Typumwandlung Cat --> String
         // output("Objekt: " + cat);
