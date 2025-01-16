@@ -5,13 +5,20 @@ public class App {
     public static void main(String[] args) {
 
         // 2. Iteration
-        //Instanziierung ---> erzeugen eines Objektes
+        //Instanziierung ---> erzeugen eines Objektes duch 
+        // Aufruf eines Konstruktors
         // Objekt <----> Instanz
         // cat --> Referenzvariable
         // Cat --> Referenztyp (Klasse)
 
         Cat cat = new Cat();
         System.out.println(cat);
+        
+        System.out.println("----------------------");
+
+        Cat cat2 = new Cat();
+        System.out.println(cat2);
+
 
     }
 
