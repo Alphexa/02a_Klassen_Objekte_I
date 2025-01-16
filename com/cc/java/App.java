@@ -4,9 +4,15 @@ public class App {
     
     public static void main(String[] args) {
 
-        // 1. Iteration Objekte erzeugen durch "new" 
-        System.out.println(new Cat());
-        System.out.println(new Cat());
+        // 2. Iteration
+        //Instanziierung ---> erzeugen eines Objektes
+        // Objekt <----> Instanz
+        // cat --> Referenzvariable
+        // Cat --> Referenztyp (Klasse)
+
+        Cat cat = new Cat();
+        System.out.println(cat);
+
     }
 
    
