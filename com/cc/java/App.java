@@ -15,9 +15,22 @@ public class App {
 
 
         Cat cat = new Cat();
-        output ("Blick von aussen: " + cat);
-        cat.getInstanceVariable();
+        //output ("Blick von aussen: " + cat);
+        //cat.getInstanceVariable();
 
+
+        // Werte zuweisen
+        cat.firstName = "Grizabella";
+        cat.furColor = "white";
+        // cat.age = 29;
+        
+        // Werte ausgeben & NULL Ausgabe 
+        output(cat.firstName);
+        output(cat.furColor);
+        output(Integer.toString(cat.age));
+
+        output("-------------------");
+        // output(null);
         // IMPLIZITE Typumwandlung Cat --> String
         // output("Objekt: " + cat);
         // = 
@@ -26,13 +39,20 @@ public class App {
         System.out.println(cat);     //ln steht für Linefeed
 
         System.out.println("----------------------");
-        output ("--------------------");
+        // output ("--------------------");
 
 
         Cat cat2 = new Cat();
-        output ("Blick von aussen: " + cat2);
+        // output ("Blick von aussen: " + cat2);
 
-        
+        cat2.firstName = "Alonzo";
+        cat2.furColor = "grey";
+        cat2.age = 35;
+
+
+        output(cat2.firstName);
+        output(cat2.furColor);
+        output(Integer.toString(cat2.age));
  }
 
 
