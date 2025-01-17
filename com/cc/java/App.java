@@ -14,20 +14,24 @@ public class App {
 
 
 
-        Cat cat = new Cat();
+        // Cat cat = new Cat();
+        Cat cat = new Cat("Grizabella", "white", 29);
+
+
+
         //output ("Blick von aussen: " + cat);
         //cat.getInstanceVariable();
 
 
         // Werte zuweisen
-        cat.firstName = "Grizabella";
-        cat.furColor = "white";
+        // cat.firstName = "Grizabella";
+        // cat.furColor = "blue";
         // cat.age = 29;
         
         // Werte ausgeben & NULL Ausgabe 
-        output(cat.firstName);
-        output(cat.furColor);
-        output(Integer.toString(cat.age));
+        output(cat.getFirstName());
+        output(cat.getFurColor());
+        output(Integer.toString(cat.getAge()));
 
         output("-------------------");
         // output(null);
@@ -42,17 +46,18 @@ public class App {
         // output ("--------------------");
 
 
-        Cat cat2 = new Cat();
+        // 
+        Cat cat2 = new Cat("Alonzo", "grey", 35);
         // output ("Blick von aussen: " + cat2);
 
-        cat2.firstName = "Alonzo";
-        cat2.furColor = "grey";
-        cat2.age = 35;
+        // cat2.firstName = "Alonzo";
+        // cat2.furColor = "grey"; 
+        // cat2.age = 35;
 
-
-        output(cat2.firstName);
-        output(cat2.furColor);
-        output(Integer.toString(cat2.age));
+        // Werte 2. ausgeben
+        output(cat2.getFirstName());
+        output(cat2.getFurColor());
+        output(Integer.toString(cat2.getAge()));
  }
 
 
